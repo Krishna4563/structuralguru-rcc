@@ -1,0 +1,48 @@
+.home {
+  background-color: rgb(255, 251, 243);
+  min-height: calc(100vh - 7.9rem);
+  padding: 1rem;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 70vh;
+  border: 3px solid goldenrod;
+  background-color: #7c0000;
+  background-image: linear-gradient(326deg, #7c0000 0%, #3e0000 74%);
+  color: white;
+  padding: 2rem;
+  border-radius: 3rem;
+  box-shadow: 0 0 20px 10px rgba(44, 44, 44, 0.3);
+}
+
+.title-div {
+  width: 90px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-div img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  margin-right: 1rem;
+}
+
+.title-div h1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.welcome-msg {
+  font-size: 2em;
+}
+
+.quote {
+  font-size: 1.3em;
+}
